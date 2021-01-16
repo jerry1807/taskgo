@@ -3166,3 +3166,36 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2021-01-16 17:19:52] production.ERROR: In order to use the Auth::routes() method, please install the laravel/ui package. {"exception":"[object] (RuntimeException(code: 0): In order to use the Auth::routes() method, please install the laravel/ui package. at C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Auth.php:56)
+[stacktrace]
+#0 C:\\Users\\blackhat\\Documents\\Github\\taskgo\outes\\web.php(16): Illuminate\\Support\\Facades\\Auth::routes()
+#1 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\blackh...')
+#2 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\blackh...')
+#3 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\blackh...')
+#4 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\blackh...')
+#5 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\app\\Providers\\RouteServiceProvider.php(63): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\blackh...')
+#6 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\app\\Providers\\RouteServiceProvider.php(47): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#7 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#8 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#10 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#13 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#14 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\app\\Providers\\RouteServiceProvider.php(35): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#15 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#16 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#21 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#22 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#23 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#24 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#25 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#26 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#27 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#28 C:\\Users\\blackhat\\Documents\\Github\\taskgo\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 {main}
+"} 
